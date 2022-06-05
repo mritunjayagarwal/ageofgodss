@@ -943,10 +943,6 @@ h3, h5 {
   opacity: 1;
 }
 
-.btn-action.style-1 {
-  padding: 17px 15px 15px 24px;
-}
-
 .btn-action.style-2 {
   padding: 14px 41px;
   border-radius: 12px;
@@ -978,108 +974,6 @@ h3, h5 {
 }
 .btn-action.style-2:hover::after {
   opacity: 1;
-}
-
-.btn-action.style-3 {
-  padding: 16px 40px;
-  font-family: "Russo One";
-  font-weight: 400;
-  background: linear-gradient(90deg, #3DBFBB 0%, #8635BD 100%);
-  border-radius: 0;
-  letter-spacing: 3px;
-}
-.btn-action.style-3::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
-  width: 100%;
-  height: 100%;
-  transition: 0.5s all ease-in-out;
-  background: linear-gradient(90deg, #8635BD 0%, #3DBFBB 100%);
-  opacity: 0;
-  transition: 0.5s all ease-in-out;
-}
-.btn-action.style-3:hover::after {
-  opacity: 1;
-}
-
-.btn-action.style-4 {
-  padding: 14px 32px;
-  font-family: "Inter";
-  font-weight: 700;
-  background: linear-gradient(153.06deg, #13B8BA -0.31%, #6A0A6B 99.69%);
-  border-radius: 12px;
-}
-.btn-action.style-4::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
-  width: 100%;
-  height: 100%;
-  transition: 0.5s all ease-in-out;
-  background: linear-gradient(153.06deg, #6A0A6B -0.31%, #13B8BA 99.69%);
-  opacity: 0;
-  transition: 0.5s all ease-in-out;
-}
-.btn-action.style-4:hover::after {
-  opacity: 1;
-}
-
-.btn-action.style-5 {
-  background: linear-gradient(107.45deg, #23E4A1 10.53%, #2B52DB 58.9%, #2724CA 70.82%);
-  border-radius: 57px;
-  padding: 14px 40px;
-  position: relative;
-}
-.btn-action.style-5::after {
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.13) 0px, rgba(255, 255, 255, 0.13) 77%, rgba(255, 255, 255, 0.5) 92%, rgba(255, 255, 255, 0));
-  content: "";
-  height: 200%;
-  left: -210%;
-  opacity: 0;
-  position: absolute;
-  top: -50%;
-  transition: all 0.7s ease 0s;
-  width: 200%;
-}
-.btn-action.style-5:hover::after {
-  left: -30%;
-  opacity: 1;
-  top: -20%;
-  transition-duration: 0.7s, 0.7s, 0.15s;
-  transition-property: left, top, opacity;
-  transition-timing-function: linear;
-}
-
-.btn-action.style-6 {
-  background: linear-gradient(153.06deg, #B621FE -0.31%, #1FD1F9 99.69%);
-  border-radius: 57px;
-  padding: 14px 40px;
-  position: relative;
-  display: inline-block;
-}
-.btn-action.style-6::after {
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.13) 0px, rgba(255, 255, 255, 0.13) 77%, rgba(255, 255, 255, 0.5) 92%, rgba(255, 255, 255, 0));
-  content: "";
-  height: 200%;
-  left: -210%;
-  opacity: 0;
-  position: absolute;
-  top: -50%;
-  transition: all 0.7s ease 0s;
-  width: 200%;
-}
-.btn-action.style-6:hover::after {
-  left: -30%;
-  opacity: 1;
-  top: -20%;
-  transition-duration: 0.7s, 0.7s, 0.15s;
-  transition-property: left, top, opacity;
-  transition-timing-function: linear;
 }
 
 .btn-action-outline {
@@ -1134,65 +1028,6 @@ h3, h5 {
 }
 .btn-action-outline.style-2:hover {
   color: #C004DE;
-}
-
-.btn-action-outline.style-3 {
-  text-transform: capitalize;
-  border: 2px solid #23e4a1;
-  border-radius: 50px;
-  padding: 12px 38px;
-}
-.btn-action-outline.style-3::before {
-  background: #23e4a1;
-}
-
-.btn-action-outline.style-4 {
-  padding: 15px 39px;
-  border: 1px solid #B4E116;
-}
-.btn-action-outline.style-4 svg {
-  position: relative;
-  z-index: 2;
-}
-.btn-action-outline.style-4::before {
-  background: #B4E116;
-}
-.btn-action-outline.style-4.active {
-  color: #181818;
-}
-.btn-action-outline.style-4.active::before {
-  background: #B4E116;
-  width: 100%;
-}
-.btn-action-outline.style-4:hover {
-  color: #181818;
-}
-
-.btn-action-outline.style-5 {
-  font-family: "Oswald";
-  text-transform: uppercase;
-  padding: 12px 38px;
-  border-radius: 50px;
-  border: 2px solid #e250e5;
-}
-.btn-action-outline.style-5::before {
-  background: #e250e5;
-}
-
-.btn-action-outline.style-6 {
-  font-family: "Russo One";
-  font-weight: 400;
-  font-size: 14px;
-  letter-spacing: 2.6px;
-  text-transform: uppercase;
-  padding: 9px 38px;
-  border: 2px solid;
-  border-image-slice: 1;
-  border-image-source: linear-gradient(to left, #8635bd, #3dbfbb);
-  position: relative;
-}
-.btn-action-outline.style-6::before {
-  background: linear-gradient(to left, #8635bd, #3dbfbb);
 }
 
 .btn-action-b {
