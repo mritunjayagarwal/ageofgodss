@@ -1566,10 +1566,7 @@ h3, h5 {
   font-weight: 400;
   margin-bottom: 0;
 }
-.box-nft:hover {
-  border: 2.10333px solid rgba(218, 72, 255, 0.6);
-  transform: translateY(-15px);
-}
+
 .box-nft:hover span::before {
   color: var(--primary-color);
 }
