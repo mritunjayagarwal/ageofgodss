@@ -11,7 +11,7 @@
     }
 
 
-    var themesflatTheme = {
+    var aog = {
 
         // Main init function
         init: function () {
@@ -71,10 +71,10 @@
             }
             },
     
-    }; // end themesflatTheme
+    }; // end aog
 
     // Start things up
-    themesflatTheme.init();
+    aog.init();
 
     
 
