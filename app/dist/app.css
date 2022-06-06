@@ -1898,3 +1898,14 @@ h3, h5 {
     width: 100%;
   }
 }
+
+/* buy aog */
+
+.buy-aog{
+  font-size: 25px;
+  color: #d3d3d3;
+}
+
+.buy-aog ul li {
+  margin-top: 30px;
+}
