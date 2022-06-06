@@ -1693,7 +1693,7 @@ h3, h5 {
 .timeline {
   margin-left: -30px;
   position: relative;
-  max-width: 100%;
+  max-width: 90%;
 }
 .timeline:before {
   content: '';
