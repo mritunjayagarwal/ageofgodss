@@ -1888,3 +1888,15 @@ h3, h5 {
 .home-nft .road-map.style-1 .box-roadmap .box-roadmap__main::before {
   background-color: #181818;
 }
+
+/* toke-img
+*/
+.toke-img{
+  width: 60%;
+}
+
+@media only screen and (max-width: 767px) {
+  .toke-img{
+    width: 100%;
+  }
+}
