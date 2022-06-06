@@ -1742,6 +1742,10 @@ h3, h5 {
   font-size: 1.2em;
   margin-bottom: 1.2em;
 }
+
+.timeline-event-copy p {
+  margin: 0;
+}
 .timeline-event-copy strong {
   font-weight: 700;
 }
@@ -1776,7 +1780,7 @@ h3, h5 {
   -webkit-transition-delay: 0.1s;
   transition: box-shadow 0.5s ease-in 0.1s;
   color: white;
-  font-size: 0.75em;
+  font-size: 25px;
   background-color: black;
   -moz-box-shadow: inset 0 0 0 0em #ef795a;
   -webkit-box-shadow: inset 0 0 0 0em #ef795a;
