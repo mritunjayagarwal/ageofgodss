@@ -1909,3 +1909,7 @@ h3, h5 {
 .buy-aog ul li {
   margin-top: 30px;
 }
+
+.btn-action{
+  font-size: 12px;
+}
